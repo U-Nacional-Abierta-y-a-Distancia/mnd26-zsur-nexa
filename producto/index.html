@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL DÍA EN QUE EL CAMPO ARDIÓ </title>
+    <meta name="description" content="Una historia del Tolima entre El Niño, el fuego y el territorio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Rye&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip" href="#historia">Saltar al contenido</a>
+
+    <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+        <symbol id="fl" viewBox="0 0 24 32">
+            <path d="M12 0c1 6 9 10 9 19a9 9 0 0 1-18 0c0-4 2-6 3-8 1 3 2 4 3 4 0-5-1-9 3-15z" />
+            <path class="in" d="M12 15c1 3 5 5 5 9a5 5 0 0 1-10 0c0-2 1-3 2-4 1 1 1 2 2 2 0-3 0-5 1-7z" />
+        </symbol>
+    </svg>
+
+    <nav class="flames" aria-label="Progreso por secciones">
+        <ol>
+            <li><a href="#historia" aria-label="Historia" title="Historia"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#nino" aria-label="El fenómeno del Niño" title="El Niño"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#causas" aria-label="Causas" title="Causas"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#consecuencias" aria-label="Consecuencias" title="Consecuencias"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#cifras" aria-label="Cifras" title="Cifras"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#acciones" aria-label="Acciones que transforman" title="Acciones"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+            <li><a href="#creditos" aria-label="Créditos" title="Créditos"><svg>
+                        <use href="#fl" />
+                    </svg></a></li>
+        </ol>
+    </nav>
+
+    <button class="snd" id="snd" aria-pressed="false" aria-label="Silenciar sonido">🔊</button>
+
+    <header class="hero" id="inicio">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="embers" aria-hidden="true"></div>
+        <h1 class="fire-title">EL DÍA EN QUE EL CAMPO ARDIÓ</h1>
+        <p class="sub">Una historia del Tolima entre El Niño, el fuego y el territorio</p>
+        <a class="btn" href="#historia" id="start">Comenzar</a>
+    </header>
+
+    <main>
+        <!-- HISTORIA -->
+        <section id="historia" class="story" data-sec aria-label="Historia">
+            <div class="scene" style="--img:url(img/historia1.jpeg);--a:#200432;--b:#4A0730;--pos:30% center">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line" data-loops="Trinar Golpe1">Cuando todavía reinaba el silencio, y solo se escuchaba
+                        el
+                        silbido del viento golpeando las ramas de los árboles, meciéndolas suavemente, ya había manos
+                        trabajando la tierra. Manos que la preparaban, sembraban, cuidaban los cultivos y alimentaban a
+                        los animales.</p>
+                    <p class="line" data-loops="Trinar Golpe1">En el territorio tolimense, en sus montañas y zonas
+                        llanas, los
+                        campesinos trabajaban la tierra para obtener el sustento que alimentaría a sus hogares y los de
+                        muchas otras personas. Sin embargo, estaban esperando algo… esperaban que la lluvia llegara a
+                        tiempo.</p>
+                    <p class="line" data-loops="Trinar Golpe1">El calor se había intensificado recientemente, la
+                        vegetación
+                        había perdido humedad, el suelo se estaba secando cada vez más y la lluvia se hacía esperar.</p>
+                </div>
+            </div>
+            <div class="scene" style="--img:url(img/historia2.jpeg);--a:#4A0730;--b:#7A0C31">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line" data-loops="Trinar">Con el fenómeno del Niño, las condiciones de sequía se estaban
+                        agravando y, lo que antes parecía una parte de una jornada habitual, comenzaba a exigir más
+                        cuidado con el paisaje cada vez más vulnerable.</p>
+                    <p class="line" data-loops="Trinar" data-once="Rama">No obstante, el campo requiere de aprovechar
+                        cada jornada. A veces, el fuego parece el camino más rápido: quema para limpiar el terreno, los
+                        residuos se encienden, la llama se mantiene bajo control… o debería.</p>
+                    <p class="line" data-loops="Fuego Hojas">El sol llevaba días azotando la tierra, la lluvia no
+                        llegaba, la
+                        vegetación estaba muy seca… y una ráfaga de viento cambió el rumbo de las llamas.</p>
+                </div>
+            </div>
+            <div class="scene" style="--img:url(img/historia3.jpeg);--a:#7A0C31;--b:#CD1A30">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line" data-loops="Fuego Aleteo">Aquellas llamas que representaban una tarea cotidiana se
+                        expandieron, amenazando la vegetación, cultivos y zonas cercanas…</p>
+                    <p class="line" data-loops="Fuego Aleteo">Pronto, los cultivos de los campesinos habían sido
+                        arrasados por las
+                        llamas junto a una buena parte del terreno en el que habitaban animales y plantas de la región…
+                    </p>
+                    <p class="line" data-loops="Fuego">Y el fuego se acercaba cada vez más a los poblados…</p>
+                </div>
+            </div>
+            <div class="scene" style="--img:url(img/historia4.png);--a:#200432;--b:#CD1A30">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line" data-loops="Fuego">Las llamas y el humo a la distancia habían encendido las alertas.
+                        Los campesinos y habitantes se apresuraron a reportar la situación a la línea de emergencias
+                        (123), Bomberos (119) y al Centro de Monitoreo Departamental del Tolima (313 293 4649), pero el
+                        fuego era arrollador.</p>
+                </div>
+            </div>
+            <div class="scene" style="--img:url(img/historia5.jpeg);--a:#CD1A30;--b:#4A0730">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line" data-loops="Fuego Aleteo">Un pequeño foco inicial en la montaña escaló rápidamente,
+                        impulsado por fuertes vientos y temperaturas sofocantes.</p>
+                    <p class="line" data-loops="Fuego">Las personas intentaron armar líneas de defensa con herramientas
+                        manuales y agua mientras las autoridades combatían el fuego en condiciones hostiles.</p>
+                    <p class="line" data-loops="Fuego Aleteo">Las llamas se extendieron por nueve días consecutivos
+                        hasta ser contenidas gracias a un despliegue masivo de agua por medio de helicópteros y el
+                        trabajo de los bomberos en tierra.</p>
+                    <p class="line" data-loops="Fuego">Más de 5000 hectáreas de cultivos y vegetación nativa fueron
+                        devoradas.</p>
+                </div>
+            </div>
+            <div class="scene" style="--img:url(img/historia6.jpg);--a:#4A0730;--b:#200432">
+                <div class="bg"></div>
+                <div class="lines">
+                    <p class="line">Inspirado en los acontecimientos ocurridos en Chagualá, Coyaima y muchas otras
+                        comunidades del Tolima durante agosto y septiembre de 2026. Historias que, aunque diferentes,
+                        recuerdan la importancia de prevenir y actuar a tiempo.</p>
+                    <p class="line">Durante agosto, municipios como Coello, San Luis, Ortega, Guamo, Chaparral y otros
+                        sectores del departamento estuvieron entre las zonas afectadas por una emergencia que llegó a
+                        comprometer decenas de miles de hectáreas de cobertura vegetal.</p>
+                    <p class="line">En algunos de los casos que se presentaron, se llegó a pensar que hubo falsos
+                        voluntarios, personas que estuvieron provocando nuevos focos con intereses poco claros.</p>
+                    <p class="line">Detrás de cada incendio hubo algo más que llamas: hubo ecosistemas afectados,
+                        familias preocupadas, cultivos en riesgo, animales desplazados y comunidades que tuvieron que
+                        enfrentarse a una emergencia que podía avanzar en cuestión de horas.</p>
+                    <p class="line">Pero…</p>
+                    <p class="line big">¿Qué estaba pasando en el Tolima?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EL NIÑO -->
+        <section id="nino" class="sec" data-sec>
+            <h2 class="fire-title" data-r="t">EL FENÓMENO DEL ÑiÑO</h2>
+            <div class="split">
+                <figure class="side"><img src="img/nino.png" alt="" onerror="this.remove()"></figure>
+                <div class="prose">
+                    <p data-r>Se trata de un fenómeno climático que puede provocar menos lluvias y temperaturas más
+                        altas en diferentes regiones de Colombia.</p>
+                    <p data-r>En el Tolima, estas condiciones han llegado a hacer que la vegetación pierda humedad y se
+                        vuelva más seca, facilitando que las llamas se extiendan.</p>
+                    <p data-r>Pero el fuego no aparece solamente por este fenómeno:</p>
+                    <p data-r>Una quema agrícola, una fogata, una colilla o cualquier otra fuente de calor puede iniciar
+                        un incendio cuando el territorio se encuentra en este estado.</p>
+                    <p data-r class="quote">Las condiciones climáticas aumentan el riesgo, pero nuestras acciones pueden
+                        prevenirlo… o agravarlo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAUSAS -->
+        <section id="causas" class="sec wide causas" data-sec>
+            <h2 class="fire-title" data-r="t">CAUSAS DEL FENÓMENO</h2>
+            <ol class="cards grid5">
+                <li data-r="l"><b>Debilitamiento de los vientos alisios:</b> estos vientos, que normalmente soplan de
+                    este a oeste en el Pacífico tropical, pierden fuerza.</li>
+                <li data-r="r"><b>Acumulación de agua cálida:</b> al debilitarse los vientos, cambia la distribución del
+                    agua cálida en la superficie del océano y esta se desplaza hacia el centro y el este del Pacífico
+                    tropical.</li>
+                <li data-r="l"><b>Disminución del afloramiento de aguas frías:</b> llega menos agua fría y profunda a la
+                    superficie frente a las costas de Sudamérica, lo que contribuye al calentamiento del océano.</li>
+                <li data-r="r"><b>Interacción entre el océano y la atmósfera:</b> el calentamiento del agua modifica los
+                    patrones de vientos y presión atmosférica, lo que puede reforzar y mantener el fenómeno.</li>
+            </ol>
+        </section>
+
+        <!-- CONSECUENCIAS -->
+        <section id="consecuencias" class="sec" data-sec>
+            <h2 class="fire-title" data-r="t">Consecuencias del fenomeno</h2>
+            <div class="split">
+                <figure class="side"><img src="img/consecuencias.jpeg" alt="" onerror="this.remove()"></figure>
+                <ol class="cards">
+                    <li data-r="l"><b>Menos lluvias y agua disponible:</b> algunas de las regiones pueden experimentar
+                        periodos de sequía y menos disponibilidad de agua.</li>
+                    <li data-r="r"><b>Temperaturas más altas:</b> aumenta el calor y puede intensificar la pérdida de
+                        humedad del suelo.</li>
+                    <li data-r="l"><b>Afectaciones a cultivo y animales:</b> la falta de agua y calor puede perjudicar a
+                        las cosechas, pastizales y la producción agropecuaria.</li>
+                    <li data-r="r"><b>Mayor riesgo de incendios de cobertura vegetal:</b> la vegetación seca puede arder
+                        con facilidad si existe una fuente con la capacidad de iniciar fuego.</li>
+                    <li data-r="l"><b>Afectaciones a los ecosistemas:</b> las plantas pueden secarse por la falta de
+                        lluvia, crecer menos, debilitarse y arder si entran en contacto con el fuego, mientras que los
+                        animales encuentran menos fuentes de hidratación, alimento y refugio, además de poder sufrir
+                        lesiones o la muerte en incendios.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- CIFRAS -->
+        <section id="cifras" class="sec alt" data-sec>
+            <h2 class="fire-title" data-r="t">Cifras</h2>
+            <h3 data-r>Incendios en la capa vegetal</h3>
+            <div class="groups">
+                <div class="grp" data-r="s">
+                    <h4>Colombia · septiembre de 2026</h4>
+                    <div class="minis">
+                        <p class="mini"><span class="num" data-n="416" data-d="0" data-p="" data-s="">416</span>
+                            incendios forestales registrados</p>
+                        <p class="mini"><span class="num" data-n="26500" data-d="0" data-p="+" data-s="">+26500</span>
+                            hectáreas afectadas</p>
+                        <p class="mini">Los eventos se registraron en 203 municipios de 18 departamentos.</p>
+                    </div>
+                </div>
+                <div class="grp" data-r="s">
+                    <h4>Tolima · 23 de septiembre de 2026</h4>
+                    <div class="minis">
+                        <p class="mini"><span class="num" data-n="270" data-d="0" data-p="" data-s="">270</span>
+                            incendios registrados durante el período reportado (aproximadamente 50 días)</p>
+                        <p class="mini"><span class="num" data-n="44" data-d="0" data-p="" data-s="">44</span> de 47
+                            municipios con incendios reportados</p>
+                    </div>
+                </div>
+                <div class="grp" data-r="s">
+                    <h4>Tolima · 26 de septiembre de 2026</h4>
+                    <div class="minis">
+                        <p class="mini"><span class="num" data-n="31000" data-d="0" data-p="+" data-s="">+31000</span>
+                            hectáreas de cobertura vegetal afectadas</p>
+                        <p class="mini"><span class="num" data-n="37" data-d="0" data-p="" data-s="">37</span> animales
+                            silvestres habían recibido atención durante la emergencia del Tolima: 22 permanecían en el
+                            centro de atención, seis habían sido liberados y nueve habían muerto hasta el 26 de agosto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h3 data-r>Fenómeno del Niño</h3>
+            <div class="groups">
+                <div class="grp" data-r="s">
+                    <h4>Colombia</h4>
+                    <div class="minis">
+                        <p class="mini"><span class="num" data-n="90" data-d="0" data-p="+" data-s="%">+90%</span> de
+                            probabilidad de que El Niño alcance una intensidad muy fuerte durante el último trimestre de
+                            2026 y el primero de 2027</p>
+                    </div>
+                </div>
+                <div class="grp" data-r="s">
+                    <h4>Tolima</h4>
+                    <div class="minis">
+                        <p class="mini"><span class="num" data-n="23" data-d="0" data-p="" data-s="%">23%</span> de la
+                            lluvia habitual registrada entre el 1 y el 20 de septiembre</p>
+                        <p class="mini"><span class="num" data-n="2.8" data-d="1" data-p="+" data-s=" °C">+2.8 °C</span>
+                            de temperatura media por encima del promedio histórico departamental</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACCIONES -->
+        <section id="acciones" data-sec aria-label="Acciones que transforman">
+            <div class="carousel">
+                <h2 class="fire-title">Acciones que transforman</h2>
+                <div class="track">
+                    <div class="flip" style="--g:var(--g1)" tabindex="0" role="button" aria-expanded="false"
+                        aria-label="En el campo: girar tarjeta">
+                        <div class="in2">
+                            <div class="face front"><span class="ico" aria-hidden="true">🌾</span>
+                                <h4>En el campo</h4><small>Toca para girar</small>
+                            </div>
+                            <div class="face back">
+                                <h4>En el campo</h4>
+                                <ul>
+                                    <li>Evite quemar para limpiar terrenos o eliminar residuos.</li>
+                                    <li>Busque alternativas para aprovechar los residuos vegetales sin quemarlos.</li>
+                                    <li>No encienda fuego para controlar pastizales o rastrojos.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip" style="--g:var(--g2)" tabindex="0" role="button" aria-expanded="false"
+                        aria-label="Durante paseos o actividades al aire libre: girar tarjeta">
+                        <div class="in2">
+                            <div class="face front"><span class="ico" aria-hidden="true">🏕️</span>
+                                <h4>Durante paseos o actividades al aire libre</h4><small>Toca para girar</small>
+                            </div>
+                            <div class="face back">
+                                <h4>Durante paseos o actividades al aire libre</h4>
+                                <ul>
+                                    <li>Evite hacer fogatas en zonas de vegetación seca.</li>
+                                    <li>No arroje colillas ni fósforos encendidos.</li>
+                                    <li>No deje residuos que puedan favorecer situaciones de riesgo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip" style="--g:var(--g4)" tabindex="0" role="button" aria-expanded="false"
+                        aria-label="En caminos y zonas rurales: girar tarjeta">
+                        <div class="in2">
+                            <div class="face front"><span class="ico" aria-hidden="true">🛣️</span>
+                                <h4>En caminos y zonas rurales</h4><small>Toca para girar</small>
+                            </div>
+                            <div class="face back">
+                                <h4>En caminos y zonas rurales</h4>
+                                <ul>
+                                    <li>No arroje colillas desde el vehículo.</li>
+                                    <li>Respete las alertas y las restricciones establecidas por las autoridades.</li>
+                                    <li>Si observa humo o llamas, aléjese del peligro y repórtelo.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip" style="--g:var(--g3)" tabindex="0" role="button" aria-expanded="false"
+                        aria-label="¿Y si veo un incendio?: girar tarjeta">
+                        <div class="in2">
+                            <div class="face front"><span class="ico" aria-hidden="true">🚒</span>
+                                <h4>¿Y si veo un incendio?</h4><small>Toca para girar</small>
+                            </div>
+                            <div class="face back">
+                                <h4>¿Y si veo un incendio?</h4>
+                                <ul>
+                                    <li>NO intente combatirlo por su propia cuenta.</li>
+                                    <li>Avise a los organismos de emergencia a través de la línea 123 o a los Bomberos,
+                                        al 119.</li>
+                                    <li>Siga las indicaciones de las autoridades y comparta solamente la información
+                                        verificada.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CRÉDITOS -->
+        <section id="creditos" class="sec end" data-sec aria-label="Mensaje final y créditos">
+            <div class="prose final">
+                <p data-r>El Niño puede traer sequías y aumentar los riesgos, pero prevenir los incendios es tarea de
+                    todos.</p>
+                <p data-r>El fuego puede transformar un paisaje en unos pocos minutos, pero una decisión responsable
+                    puede evitar que comience.</p>
+                <p data-r>Que la próxima historia del Tolima no sea la de un territorio que ardió, sino de una comunidad
+                    que lo protegió.</p>
+                <p data-r class="quote"><em>El fuego puede comenzar con una chispa.<br>La prevención comienza
+                        contigo.</em></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="band" aria-label="Créditos">
+        <div class="names">
+            <p>Greeisy Mishel Guillen Susunaga</p>
+            <p>Yenci Natalia Guillen Susunaga</p>
+            <p>Nicolás David Valencia Conde</p>
+        </div>
+        <p class="copy">© 2026</p>
+        <p class="mar">Maratón de Innovación en Narrativas Digitales</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
