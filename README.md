@@ -43,7 +43,7 @@ Requiere conexión a internet (GSAP y Google Fonts por CDN). Respeta prefers-red
 | [Walk On Grass 2](https://pixabay.com/sound-effects/film-special-effects-walk-on-grass-2-291985/) (efecto de sonido, Pixabay) | joentnt | Pixabay Content License |
 | [Rio](https://pixabay.com/sound-effects/nature-rio-119944/) (efecto de sonido, Pixabay) | JeanMalraux | Pixabay Content License |
 | [Fuego](https://pixabay.com/sound-effects/nature-fuego-194492/) (efecto de sonido, Pixabay) | u_g0akwz8ml1 | Pixabay Content License |
-| [Guevara](https://www.dafont.com/es/guevara.font) (fuente tipográfica, DaFont) | No Images Fonts | Licencia indicada en DaFont (escribir aquí la que aparece en la página) |
+| [Guevara](https://www.dafont.com/es/guevara.font) (fuente tipográfica, DaFont) | No Images Fonts | "Gratis para uso personal" |
 | [EB Garamond](https://fonts.google.com/specimen/EB+Garamond) (fuente tipográfica, Google Fonts) | Georg Duffner / Octavio Pardo | SIL Open Font License 1.1 |
 | [Rye](https://fonts.google.com/specimen/Rye) (fuente tipográfica, Google Fonts) | Tension Type | SIL Open Font License 1.1 |
 | [¿Qué es el fenómeno de El Niño? Explicación de su mecanismo y de las altas temperaturas de 2026](https://www.eneres.jp/journal/el-nino/) (imagen, 28 de agosto de 2026, ENERES) | ENERES | Uso con fines académicos; sin licencia abierta |
