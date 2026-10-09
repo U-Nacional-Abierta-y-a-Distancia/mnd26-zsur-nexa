@@ -12,7 +12,7 @@
 | Zona / Centro(s) | Zona Sur / CEAD Ibagué – CEAD Neiva |
 | Tipo de producto (Tabla 1 del documento técnico) | Scrollytelling |
 | Integrantes (solo nombres completos) | Greeisy Mishel Guillen Susunaga - Yenci Natalia Guillen Susunaga - Nicolás David Valencia Conde |
-| Enlace al demo web (si aplica) | https://u-nacional-abierta-y-a-distancia.github.io/mnd26-zsur-nexa/ |
+| Enlace al demo web (si aplica) | https://canva.link/zv79qipnbrau4ii - https://u-nacional-abierta-y-a-distancia.github.io/mnd26-zsur-nexa/ |
 
 **No escriba aquí cédulas, teléfonos ni correos.** Este repositorio se hace público el viernes 9 de octubre a las 12:00 m.
 
